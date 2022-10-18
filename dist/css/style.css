@@ -110,7 +110,7 @@ body .container .title a {
     height: 33px;
   }
   body .container .title {
-    margin: 40px 20px 100px 20px;
+    margin: 35px 20px 80px 20px;
   }
   body .container .title h2 {
     padding-top: 48px;
@@ -120,6 +120,7 @@ body .container .title a {
   }
   body .container .title .box {
     display: block;
+    text-align: -webkit-center;
     padding-top: 33px;
     padding-bottom: 0px;
   }
@@ -127,7 +128,7 @@ body .container .title a {
     position: relative;
     background: #fff;
     flex: 1;
-    border: 1px solid blue;
+    border: none;
     width: 289px;
     height: 219px;
     margin-left: 43px;

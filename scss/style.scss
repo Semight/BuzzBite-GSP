@@ -133,7 +133,7 @@ body {
             }
 
             .title {
-                margin: 40px 20px 100px 20px;
+                margin: 35px 20px 80px 20px;
 
                 h2 {
                     padding-top: 48px;
@@ -144,6 +144,7 @@ body {
 
                 .box {
                     display: block;
+                    text-align: -webkit-center;
                     padding-top: 33px;
                     padding-bottom: 0px;
 
@@ -151,7 +152,7 @@ body {
                         position: relative;
                         background: $color-white;
                         flex: 1;
-                        border: 1px solid blue;
+                        border: none;
                         width: 289px;
                         height: 219px;
                         margin-left: 43px;
