@@ -24,11 +24,9 @@ body .container .logo .logo-title {
   color: #5B26CF;
 }
 body .container .title {
-  margin: 40px 260px 100px 260px;
-  border: double 1px transparent;
-  background-image: linear-gradient(#FEF6F7, #fef6f7), linear-gradient(112.52deg, #5B26CF 0%, #D72595 100%);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
+  margin: 40px auto;
+  width: 60%;
+  border: 1px solid #5B26CF;
   border-radius: 8px;
 }
 body .container .title h2 {
@@ -86,6 +84,7 @@ body .container .title button {
   background: linear-gradient(99.06deg, #5B26CF 5.48%, #D72595 100%);
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 body .container .title .login {
   align-items: center;
@@ -110,7 +109,7 @@ body .container .title a {
     height: 33px;
   }
   body .container .title {
-    margin: 35px 20px 80px 20px;
+    width: 90%;
   }
   body .container .title h2 {
     padding-top: 48px;
